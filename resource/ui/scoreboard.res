@@ -1321,7 +1321,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"aTF2Secondary10"
+			"font"			"TF2Secondary10"
 			"labelText"		"%destruction%"
 			"textAlignment"		"east"
 			"xpos"			"181"

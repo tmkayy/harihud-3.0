@@ -677,6 +677,7 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
+		"alpha"	  "0" //REMOVE THIS LINE TO ADD SCOPE BACK
 	}
 	
 	HudScopeCharge

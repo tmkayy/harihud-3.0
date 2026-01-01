@@ -233,7 +233,7 @@ event HudHealthBonusPulseStop
 
 //===========================================
 
-//Health Dying Pulse (animated like Low Ammo, with BG)
+//Health Dying Pulse
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthValue     FgColor "Negative"   Linear 0.0 0.075

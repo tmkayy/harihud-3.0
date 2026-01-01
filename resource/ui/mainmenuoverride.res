@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 #base "../../#basefiles/Menu/Buttons.res"
 #base "../../#basefiles/Menu/Tools.res"
 

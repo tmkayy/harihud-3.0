@@ -3174,7 +3174,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"8"
 				"antialias" "1"
 			}
@@ -3183,7 +3183,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -3192,7 +3192,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -3211,7 +3211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -3223,7 +3223,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3232,7 +3232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -3243,7 +3243,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"24"
 				"antialias" "1"
 			}
@@ -3252,7 +3252,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"27"
 				"additive"	"0"
 				"antialias" "1"
@@ -3263,7 +3263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"32"
 				"antialias" "1"
 			}
@@ -3272,7 +3272,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"36"
 				"antialias" "1"
 			}
@@ -3281,7 +3281,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"42"
 				"antialias" "1"
 			}
@@ -3290,7 +3290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
+				"name"		"ahud"
 				"tall"		"48"
 				"antialias" "1"
 			}
@@ -3512,7 +3512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"tf2secondary"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -3523,7 +3523,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -3534,7 +3534,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3545,7 +3545,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3556,7 +3556,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -3567,7 +3567,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -3578,7 +3578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"20"
 				"weight"	"500"
 				"additive"	"0"
@@ -3589,7 +3589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"22"
 				"weight"	"500"
 				"additive"	"0"
@@ -3600,7 +3600,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3611,7 +3611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"26"
 				"weight"	"500"
 				"additive"	"0"
@@ -3622,7 +3622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"28"
 				"weight"	"500"
 				"additive"	"0"
@@ -3633,7 +3633,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -3644,7 +3644,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"32"
 				"weight"	"500"
 				"additive"	"0"
@@ -3655,7 +3655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"34"
 				"weight"	"500"
 				"additive"	"0"
@@ -3666,7 +3666,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -3677,7 +3677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"38"
 				"weight"	"500"
 				"additive"	"0"
@@ -3689,7 +3689,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"40"
 				"weight"	"500"
 				"additive"	"0"
@@ -3700,7 +3700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"42"
 				"weight"	"500"
 				"additive"	"0"
@@ -3711,7 +3711,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -3722,7 +3722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
+				"name"		"haribold"
 				"tall"		"46"
 				"weight"	"500"
 				"additive"	"0"
@@ -7150,17 +7150,20 @@ Scheme
 		}
 		"10"
 		{
-			"font"	"resource/fonts/hypnotize_icons.ttf"
-			"name"  "Hypnotize Icons V3s"
+			"font"	"resource/fonts/hypnotize_icons.ttf" [$WINDOWS]
+			"font"	"resource/fonts/hypnotize_icons_linux.ttf" [$LINUX]
+			"name"  "Hypnotize Icons V3s" 
 		}
 		"11"
 		{
-			"font"	"resource/fonts/ReadyUp_Symbols.otf"
+			"font"	"resource/fonts/ReadyUp_Symbols.otf" [$WINDOWS]
+			"font"	"resource/fonts/readyup_symbols_linux.otf" [$LINUX]
 			"name"  "ReadyUp Symbols"
 		}
 		"12"
 		{
-			"font"	"resource/fonts/tf2_class_icons.ttf"
+			"font"	"resource/fonts/tf2_class_icons.ttf" [$WINDOWS]
+			"font"	"resource/fonts/tf2_class_icons_linux.ttf" [$LINUX]
 			"name"  "TF2 Class Icons V2"
 		}
 		"13" 
@@ -7180,8 +7183,21 @@ Scheme
 		}
 		"16" 
 		{
-			"font" "resource/fonts/JofreIconsMaster.ttf"
+			"font" "resource/fonts/JofreIconsMaster.ttf" [$WINDOWS]
+			"font" "resource/fonts/jofreiconsmaster_linux.ttf" [$LINUX]
 			"name" "JofreIconsRe"
+		}
+        "17" 
+		{
+			"font" "resource/fonts/haribold.ttf" [$WINDOWS]
+			"font"	"resource/fonts/haribold_linux.ttf" [$LINUX]
+			"name" "haribold"
+		}
+        "18"
+		{
+			"font"	"resource/fonts/ahud.otf" [$WINDOWS]
+			"font"	"resource/fonts/ahud_linux.ttf" [$LINUX]
+			"name"  "ahud"
 		}
 	}
 }
