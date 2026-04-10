@@ -3729,6 +3729,229 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+
+		//japanese
+		"Meiryo8"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo10"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo12"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo14"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo16"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo18"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo20"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo22"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo24"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo26"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo28"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo30"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo32"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo34"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo36"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"36"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo38"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"Meiryo40"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo42"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo44"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"Meiryo46"
+		{
+			"1"
+			{
+				"name"		"Meiryo"
+				"tall"		"46"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		//icon font
 		"TF2Icons8"
@@ -7198,6 +7421,12 @@ Scheme
 			"font"	"resource/fonts/ahud.otf" [$WINDOWS]
 			"font"	"resource/fonts/ahud_linux.ttf" [$LINUX]
 			"name"  "ahud"
+		}
+		"19"
+		{
+			"font"	"resource/fonts/Meiryo.ttf" [$WINDOWS]
+			"font"	"resource/fonts/Meiryo.ttf" [$LINUX]
+			"name"  "Meiryo"
 		}
 	}
 }

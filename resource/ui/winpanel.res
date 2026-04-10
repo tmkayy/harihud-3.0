@@ -100,7 +100,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"TF2Secondary20"
+			"font"			"Meiryo20"
 			"fgcolor"		"ahudWhite"
 			"labelText"		"ブルーチーム"
 			"textAlignment"		"west"
@@ -123,7 +123,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel2"
-			"font"			"TF2Secondary16"
+			"font"			"Meiryo16"
 			"fgcolor"		"ahudWhite"
 			"labelText"		"ブルーチーム"
 			"textAlignment"		"west"
@@ -146,7 +146,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel2Shadow"
-			"font"			"TF2Secondary16"
+			"font"			"Meiryo16"
 			"fgcolor"		"shadow_hari"
 			"labelText"		"ブルーチーム"
 			"textAlignment"		"west"
@@ -244,7 +244,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"aRegular20"
+			"font"			"Meiryo20"
 			"fgcolor"		"ahudWhite"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
@@ -267,7 +267,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel2"
-			"font"			"TF2Secondary16"
+			"font"			"Meiryo16"
 			"fgcolor"		"ahudWhite"
 			"labelText"		"レッドチーム"
 			"textAlignment"		"east"
@@ -290,7 +290,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel2Shadow"
-			"font"			"TF2Secondary16"
+			"font"			"Meiryo16"
 			"fgcolor"		"shadow_hari"
 			"labelText"		"レッドチーム"
 			"textAlignment"		"east"
