@@ -15,7 +15,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"medal_width"		"15"
+		"medal_width"		"0" //20 if u want medals
+		"medal_column_width" "0" //20 if u want medals
 		"avatar_width"		"54"
 		"spacer"			"5"
 		"name_width"		"85"
