@@ -371,7 +371,22 @@
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
 			"depressedFgColor_override"				"TanLight"
-		}
+
+		// 	"SubImage"
+		// 	{
+		// 		"ControlName"	"ImagePanel"
+		// 		"fieldName"		"SubImage"
+		// 		"xpos"			"0"
+		// 		"ypos"			"0"
+		// 		"zpos"			"1"
+		// 		"wide"			"32"
+		// 		"tall"			"32"
+		// 		"visible"		"1"
+		// 		"enabled"		"1"
+		// 		"image"			"replay/thumbnails/hris"
+		// 		"scaleImage"	"1"
+		// 	}
+		// }
 	}
 
 	"Notifications_Panel"
