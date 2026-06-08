@@ -114,7 +114,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Azonix12"
+		"font"			"TF2Secondary16"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"2"	[$WIN32]
 		"wide"			"240"	[$WIN32]
