@@ -4,11 +4,11 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
-	"DashboardDimmer"
-	{
-		"wide" "0"
-		"tall" "0"
-	}
+	// "DashboardDimmer"
+	// {
+	// 	"wide" "0"
+	// 	"tall" "0"
+	// }
 
 	MainMenuOverride
 	{
@@ -386,7 +386,7 @@
 		// 		"image"			"replay/thumbnails/hris"
 		// 		"scaleImage"	"1"
 		// 	}
-		// }
+		}
 	}
 
 	"Notifications_Panel"
