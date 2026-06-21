@@ -526,223 +526,245 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		"Default"
-		{
+				{
 			"1"
 			{
-				"name"										"Product Sans"
-				"tall"										"14"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"										"Product Sans"
-				"tall"										"18"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"										"Product Sans"
-				"tall"										"22"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"										"Product Sans"
-				"tall"										"24"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"										"Product Sans"
-				"tall"										"9"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"900"
+				"name"		"Verdana"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
 			}
 			"7"
 			{
-				"name"										"Arial"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"800"
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
+
+			
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"										"Tahoma"
-				"tall"										"12"
-				"weight"									"500"
-				"underline"									"1"
-				"range"										"0x0000 0x017F"
+				"name"		"Tahoma"
+				"tall"		"12"
+				"weight"	"500"
+				"underline" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
-				"name"										"Arial"
-				"tall"										"11"
-				"range"										"0x0000 0x00FF"
-				"weight"									"800"
+				"name"		"Arial"
+				"tall"		"11"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"										"Verdana"
-				"tall"										"13"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"										"Verdana"
-				"tall"										"20"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"										"Verdana"
-				"tall"										"9"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"										"Arial"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"0"
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
 			}
 		}
+
+
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"										"Verdana"
-				"tall"										"9"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
 			}
 		}
-		"DefaultLarge"
+		DefaultLarge
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"18"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
+				"name"		"Verdana"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"										"Verdana"
-				"tall"										"21"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
+				"name"		"Verdana"
+				"tall"		"21"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"										"Verdana"
-				"tall"										"22"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"										"Verdana"
-				"tall"										"28"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"										"Verdana"
-				"tall"										"18"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"30"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"										"Verdana"
-				"tall"										"20"
-				"range"										"0x0000 0x00FF"
-				"weight"									"900"
+				"name"		"Verdana"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
 			}
 			"7"
 			{
-				"name"										"Arial"
-				"tall"										"20"
-				"range"										"0x0000 0x00FF"
-				"weight"									"800"
+				"name"		"Arial"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		CenterPrintText
@@ -770,89 +792,93 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudHintText"
+		HudHintText
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"700"
-				"yres"										"480 599"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"										"Verdana"
-				"tall"										"13"
-				"weight"									"700"
-				"yres"										"600 767"
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"23"	[$X360]
+				"weight"	"700"
+				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"weight"									"700"
-				"yres"										"768 1023"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"										"Verdana"
-				"tall"										"20"
-				"weight"									"700"
-				"yres"										"1024 1199"
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"700"
-				"antialias"									"1"
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"700"
+				"yres"	"1200 10000"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"										"TF2"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"									"1"
-				"yres"										"480 599"
+				"name"		"TF2"
+				"tall"		"24"
+				"tall_lodef"	"80"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"										"TF2"
-				"tall"										"32"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"									"1"
-				"yres"										"600 767"
+				"name"		"TF2"
+				"tall"		"32"
+				"tall_hidef"	"120"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"										"TF2"
-				"tall"										"44"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"									"1"
-				"yres"										"768 1023"
+				"name"		"TF2"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"768 1023"
 			}
 			"4"
 			{
-				"name"										"TF2"
-				"tall"										"48"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"									"1"
-				"yres"										"1024 1199"
+				"name"		"TF2"
+				"tall"		"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"1024 1199"
 			}
 			"5"
 			{
-				"name"										"TF2"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"									"1"
+				"name"		"TF2"
+				"tall"		"52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
