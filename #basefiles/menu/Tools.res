@@ -15,7 +15,7 @@
 		"bgcolor_override"    						"0 0 0 190"
 		
 		//"proportionaltoaparent"						"1"
-		//"border"									"TFFatLineBorder"
+		"border"									"TFFatLineBorder"
 		
 
 		"MOTD_HeaderContainer"

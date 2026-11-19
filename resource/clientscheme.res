@@ -5022,15 +5022,13 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-            "color"                 "black_bright_hari"					
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+
+			"image"					"replay/thumbnails/panels/material_dialog_round"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"7"
+			"draw_corner_height"		"7"
 		}
-		
 		StoreFreeTrialBorder
 		{
 			"bordertype"			"scalable_image"
