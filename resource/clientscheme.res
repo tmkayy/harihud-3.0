@@ -274,10 +274,10 @@ Scheme
 	{
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
-		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"TanLight"
+		ReplayBrowser.Button.ArmedBgColor					"0 0 0 200"
+		ReplayBrowser.Button.DepressedBgColor				"0 0 0 200"
+		ReplayBrowser.CollectionTitle.FgColor				"TanLight"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.BgColor						"TanDark"
@@ -3205,9 +3205,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"haribold"
 				"tall"		"11" [$WINDOWS]
-				"tall"		"11" [$LINUX]
+				"tall"		"9" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3217,9 +3217,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"haribold"
 				"tall"		"14" [$WINDOWS]
-				"tall"		"14" [$LINUX]
+				"tall"		"12" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3229,9 +3229,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"haribold"
 				"tall"		"18" [$WINDOWS]
-				"tall"		"18" [$LINUX]
+				"tall"		"15" [$LINUX]
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
 				"weight"	"500"
@@ -3243,9 +3243,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"haribold"
 				"tall"		"24" [$WINDOWS]
-				"tall"		"24" [$LINUX]
+				"tall"		"20" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
