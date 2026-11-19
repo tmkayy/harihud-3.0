@@ -22,7 +22,7 @@
 		"ControlName"						"ImagePanel"
 		"fieldName"							"Background"
 		"xpos"								"0"
-		"ypos"								"0"
+		"ypos"								"-42"
 		"zpos"								"-3"
 		"wide"								"f0"
 		"tall"								"480"
@@ -330,6 +330,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 						"defaultBgColor_override" 	"46 43 42 0"
 			"armedBgColor_override" 	"46 43 42 0"
+			"selectedBgColor_override" 	"46 43 42 0"
 			"depressedBgColor_override" "46 43 42 0"
 		}
 	}

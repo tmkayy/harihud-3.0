@@ -10,12 +10,27 @@
 		"wide"										"500"
 		"tall"										"350"
 		"visible"									"0"
-		"paintbackground"							"1"
-		"PaintBackgroundType"    "2"
-		"bgcolor_override"    						"0 0 0 190"
+		"paintbackground"							"0"
 		
 		//"proportionaltoaparent"						"1"
 		"border"									"TFFatLineBorder"
+
+		"MOTD_BGFill"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"MOTD_BGFill"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"-100"
+			"wide"			"496"
+			"tall"			"346"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled"	"0"
+			"paintbackground"	"1"
+			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 190"
+		}
 		
 
 		"MOTD_HeaderContainer"
@@ -182,6 +197,7 @@
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -217,6 +233,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -252,6 +269,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -287,6 +305,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -322,6 +341,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -357,6 +377,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -392,6 +413,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -427,6 +449,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -462,6 +485,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -497,6 +521,7 @@
 			
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"			"Blank"
+			"selectedBgColor_override"			"Blank"
 			"depressedBgColor_override"		"Blank"
 		
 			"defaultFgColor_override"		"TanLight"
@@ -788,6 +813,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 0 0 255"
 			"armedBgColor_override" 					"0 0 0 180"
+			"selectedBgColor_override" 					"0 0 0 180"
 			"depressedBgColor_override" 				"0 0 0 180"
 			"border_default"		       				"noborder"
 		
@@ -819,6 +845,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"120 120 120 255"
 			"armedBgColor_override" 					"120 120 120 180"
+			"selectedBgColor_override" 					"120 120 120 180"
 			"depressedBgColor_override" 				"120 120 120 180"
 			"border_default"		       				"noborder"
 		
@@ -850,6 +877,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 255 255 255"
 			"armedBgColor_override" 					"255 255 255 180"
+			"selectedBgColor_override" 					"255 255 255 180"
 			"depressedBgColor_override" 				"255 255 255 180"
 			"border_default"		       				"noborder"
 		
@@ -881,6 +909,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 255 150 255"
 			"armedBgColor_override" 					"255 255 150 180"
+			"selectedBgColor_override" 					"255 255 150 180"
 			"depressedBgColor_override" 				"255 255 150 180"
 			"border_default"		       				"noborder"
 		
@@ -912,6 +941,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 255 0 255"
 			"armedBgColor_override" 					"255 255 0 180"
+			"selectedBgColor_override" 					"255 255 0 180"
 			"depressedBgColor_override" 				"255 255 0 180"
 			"border_default"		       				"noborder"
 		
@@ -943,6 +973,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 255 0 255"
 			"armedBgColor_override" 					"0 255 0 180"
+			"selectedBgColor_override" 					"0 255 0 180"
 			"depressedBgColor_override" 				"0 255 0 180"
 			"border_default"		       				"noborder"
 		
@@ -974,6 +1005,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"127 255 160 255"
 			"armedBgColor_override" 					"127 255 160 180"
+			"selectedBgColor_override" 					"127 255 160 180"
 			"depressedBgColor_override" 				"127 255 160 180"
 			"border_default"		       				"noborder"
 		
@@ -1005,6 +1037,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"119 255 220 255"
 			"armedBgColor_override" 					"119 255 220 180"
+			"selectedBgColor_override" 					"119 255 220 180"
 			"depressedBgColor_override" 				"119 255 220 180"
 			"border_default"		       				"noborder"
 		
@@ -1036,6 +1069,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 255 255 255"
 			"armedBgColor_override" 					"0 255 255 180"
+			"selectedBgColor_override" 					"0 255 255 180"
 			"depressedBgColor_override" 				"0 255 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1067,6 +1101,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 200 255 255"
 			"armedBgColor_override" 					"0 200 255 180"
+			"selectedBgColor_override" 					"0 200 255 180"
 			"depressedBgColor_override" 				"0 200 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1098,6 +1133,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 30 100 255"
 			"armedBgColor_override" 					"255 30 100 180"
+			"selectedBgColor_override" 					"255 30 100 180"
 			"depressedBgColor_override" 				"255 30 100 180"
 			"border_default"		       				"noborder"
 		
@@ -1129,6 +1165,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 0 255 255"
 			"armedBgColor_override" 					"255 0 255 180"
+			"selectedBgColor_override" 					"255 0 255 180"
 			"depressedBgColor_override" 				"255 0 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1160,6 +1197,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"190 133 220 255"
 			"armedBgColor_override" 					"190 133 220 180"
+			"selectedBgColor_override" 					"190 133 220 180"
 			"depressedBgColor_override" 				"190 133 220 180"
 			"border_default"		       				"noborder"
 		
@@ -1191,6 +1229,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 178 255 255"
 			"armedBgColor_override" 					"255 178 255 180"
+			"selectedBgColor_override" 					"255 178 255 180"
 			"depressedBgColor_override" 				"255 178 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1222,6 +1261,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"200 200 255 255"
 			"armedBgColor_override" 					"200 200 255 180"
+			"selectedBgColor_override" 					"200 200 255 180"
 			"depressedBgColor_override" 				"200 200 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1253,6 +1293,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 0 0 255"
 			"armedBgColor_override" 					"0 0 0 180"
+			"selectedBgColor_override" 					"0 0 0 180"
 			"depressedBgColor_override" 				"0 0 0 180"
 			"border_default"		       				"noborder"
 		
@@ -1284,6 +1325,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"120 120 120 255"
 			"armedBgColor_override" 					"120 120 120 180"
+			"selectedBgColor_override" 					"120 120 120 180"
 			"depressedBgColor_override" 				"120 120 120 180"
 			"border_default"		       				"noborder"
 		
@@ -1315,6 +1357,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 255 255 255"
 			"armedBgColor_override" 					"255 255 255 180"
+			"selectedBgColor_override" 					"255 255 255 180"
 			"depressedBgColor_override" 				"255 255 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1346,6 +1389,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 255 150 255"
 			"armedBgColor_override" 					"255 255 150 180"
+			"selectedBgColor_override" 					"255 255 150 180"
 			"depressedBgColor_override" 				"255 255 150 180"
 			"border_default"		       				"noborder"
 		
@@ -1377,6 +1421,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 255 0 255"
 			"armedBgColor_override" 					"255 255 0 180"
+			"selectedBgColor_override" 					"255 255 0 180"
 			"depressedBgColor_override" 				"255 255 0 180"
 			"border_default"		       				"noborder"
 		
@@ -1408,6 +1453,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 255 0 255"
 			"armedBgColor_override" 					"0 255 0 180"
+			"selectedBgColor_override" 					"0 255 0 180"
 			"depressedBgColor_override" 				"0 255 0 180"
 			"border_default"		       				"noborder"
 		
@@ -1439,6 +1485,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"127 255 160 255"
 			"armedBgColor_override" 					"127 255 160 180"
+			"selectedBgColor_override" 					"127 255 160 180"
 			"depressedBgColor_override" 				"127 255 160 180"
 			"border_default"		       				"noborder"
 		
@@ -1470,6 +1517,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"119 255 220 255"
 			"armedBgColor_override" 					"119 255 220 180"
+			"selectedBgColor_override" 					"119 255 220 180"
 			"depressedBgColor_override" 				"119 255 220 180"
 			"border_default"		       				"noborder"
 		
@@ -1501,6 +1549,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 255 255 255"
 			"armedBgColor_override" 					"0 255 255 180"
+			"selectedBgColor_override" 					"0 255 255 180"
 			"depressedBgColor_override" 				"0 255 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1532,6 +1581,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"0 200 255 255"
 			"armedBgColor_override" 					"0 200 255 180"
+			"selectedBgColor_override" 					"0 200 255 180"
 			"depressedBgColor_override" 				"0 200 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1563,6 +1613,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 30 100 255"
 			"armedBgColor_override" 					"255 30 100 180"
+			"selectedBgColor_override" 					"255 30 100 180"
 			"depressedBgColor_override" 				"255 30 100 180"
 			"border_default"		       				"noborder"
 		
@@ -1594,6 +1645,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 0 255 255"
 			"armedBgColor_override" 					"255 0 255 180"
+			"selectedBgColor_override" 					"255 0 255 180"
 			"depressedBgColor_override" 				"255 0 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1625,6 +1677,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"190 133 220 255"
 			"armedBgColor_override" 					"190 133 220 180"
+			"selectedBgColor_override" 					"190 133 220 180"
 			"depressedBgColor_override" 				"190 133 220 180"
 			"border_default"		       				"noborder"
 		
@@ -1656,6 +1709,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"255 178 255 255"
 			"armedBgColor_override" 					"255 178 255 180"
+			"selectedBgColor_override" 					"255 178 255 180"
 			"depressedBgColor_override" 				"255 178 255 180"
 			"border_default"		       				"noborder"
 		
@@ -1687,6 +1741,7 @@
 			"textinsetx"		       				    "7"
 			"defaultBgColor_override" 					"200 200 255 255"
 			"armedBgColor_override" 					"200 200 255 180"
+			"selectedBgColor_override" 					"200 200 255 180"
 			"depressedBgColor_override" 				"200 200 255 180"
 			"border_default"		       				"noborder"
 		

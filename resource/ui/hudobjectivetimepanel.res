@@ -81,7 +81,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Meiryo14"
+		"font"			"TF2Secondary14"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -92,9 +92,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"Meiryo14"
-			"font_hidef"			"Meiryo14"
-			"font_lodef"			"Meiryo14"
+			"font"					"TF2Secondary14"
+			"font_hidef"			"TF2Secondary14"
+			"font_lodef"			"TF2Secondary14"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -145,9 +145,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Meiryo14"
-		"font_hidef"	"Meiryo14"
-		"font_lodef"	"Meiryo14"
+		"font"			"TF2Secondary14"
+		"font_hidef"	"TF2Secondary14"
+		"font_lodef"	"TF2Secondary14"
 
 		if_match
 		{
@@ -156,9 +156,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"Meiryo14"
-			"font_hidef"			"Meiryo14"
-			"font_lodef"			"Meiryo14"
+			"font"					"TF2Secondary14"
+			"font_hidef"			"TF2Secondary14"
+			"font_lodef"			"TF2Secondary14"
 		}
 	}			
 	"OvertimeBG"
@@ -273,7 +273,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Meiryo14"
+		"font"			"TF2Secondary14"
 
 		if_match
 		{
@@ -282,9 +282,9 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"Meiryo14"
-			"font_hidef"			"Meiryo14"
-			"font_lodef"			"Meiryo14"
+			"font"					"TF2Secondary14"
+			"font_hidef"			"TF2Secondary14"
+			"font_lodef"			"TF2Secondary14"
 		}
 	}	
 	"SetupBG"

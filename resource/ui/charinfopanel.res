@@ -104,7 +104,7 @@
 		"tabwidth"							"240"
 		"tabheight"							"18"
 		"transition_time" 					"0"
-		"yoffset"							"8"
+		"yoffset"							"3"
 		
 		"HeaderLine"
 		{
@@ -164,6 +164,7 @@
 		"armedFgColor_override" 			"black_bright_hari"
 		"depressedFgColor_override"			"black_bright_hari"
 		"armedBgColor_override" 			"TanLight"
+		"selectedBgColor_override" 			"TanLight"
 		"depressedBgColor_override"			"TanLight"			
 		
 	}

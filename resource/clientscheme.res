@@ -530,7 +530,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -538,7 +539,8 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -547,7 +549,8 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -556,7 +559,8 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -565,7 +569,8 @@ Scheme
 			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -573,14 +578,16 @@ Scheme
 			"6"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
 				"name"		"Arial"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -591,16 +598,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"12"
+				"name"		"Tahoma" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"500"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
-				"name"		"Arial"
-				"tall"		"11"
+				"name"		"Arial" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -609,24 +620,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -634,8 +651,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -643,16 +662,20 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Verdana"
-				"tall"		"9"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"		"Arial" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -663,24 +686,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -688,8 +717,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -697,8 +728,10 @@ Scheme
 			}
 			"5" // Misyl: Proportional
 			{
-				"name"		"Verdana"
-				"tall"		"9"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
@@ -708,24 +741,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"21"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"21" [$WINDOWS]
+				"tall"		"21" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"22" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -733,8 +772,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"28"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"28" [$WINDOWS]
+				"tall"		"28" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -742,8 +783,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"30"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"30" [$WINDOWS]
+				"tall"		"30" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -751,15 +794,19 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
-				"tall"		"20"
+				"name"		"Arial" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
@@ -769,9 +816,11 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Trebuchet MS" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
 				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -782,8 +831,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"6"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"6" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -793,37 +844,47 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"700"
 				"yres"	"1200 10000"
 			}
@@ -833,7 +894,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"tall_lodef"	"80"
 				"weight"	"500"
 				"additive"	"0"
@@ -843,7 +905,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2"
-				"tall"		"32"
+				"tall"		"32" [$WINDOWS]
+				"tall"		"32" [$LINUX]
 				"tall_hidef"	"120"
 				"weight"	"500"
 				"additive"	"0"
@@ -853,7 +916,8 @@ Scheme
 			"3"
 			{
 				"name"		"TF2"
-				"tall"		"44"
+				"tall"		"44" [$WINDOWS]
+				"tall"		"44" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -862,7 +926,8 @@ Scheme
 			"4"
 			{
 				"name"		"TF2"
-				"tall"		"48"
+				"tall"		"48" [$WINDOWS]
+				"tall"		"48" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -871,7 +936,8 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -882,7 +948,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"44"
+				"tall"		"44" [$WINDOWS]
+				"tall"		"44" [$LINUX]
 				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -895,7 +962,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"35"
+				"tall"		"35" [$WINDOWS]
+				"tall"		"35" [$LINUX]
 				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
@@ -908,7 +976,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"36" [$LINUX]
 				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -920,7 +989,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"30" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -931,7 +1001,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"30" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -942,7 +1013,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
@@ -954,7 +1026,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"yres"		"1 1199"
 				"additive"	"0"
@@ -963,7 +1036,8 @@ Scheme
 			"2" // Misyl: Proportional
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -974,7 +1048,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -985,7 +1060,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -996,7 +1072,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
 				"weight"	"500"
@@ -1009,7 +1086,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
 				"weight"	"500"
@@ -1022,7 +1100,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1034,7 +1113,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1045,7 +1125,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1056,7 +1137,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1068,7 +1150,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1079,7 +1162,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1090,11 +1174,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Quicksand Bold"
-				"tall"		"12"
-				"weight"	"500"
+				"name"		"Quicksand Bold" [$WINDOWS]
+				"name"		"Quicksand" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"11" [$LINUX]
+				"weight"	"500" [$WINDOWS]
+				"weight"	"700" [$LINUX]
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"HudFontSmallestBoldShadow"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold" [$WINDOWS]
+				"name"		"Quicksand" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"10" [$LINUX]
+				"weight"	"500" [$WINDOWS]
+				"weight"	"700" [$LINUX]
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		"PerformanceModeSmall"
@@ -1102,7 +1204,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"4"
+				"tall"		"4" [$WINDOWS]
+				"tall"		"4" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1113,7 +1216,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1124,7 +1228,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1135,7 +1240,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -1146,7 +1252,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -1157,7 +1264,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"6"
+				"tall"		"6" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -1168,7 +1276,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
 				"weight"	"400"
@@ -1181,7 +1290,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1256,7 +1366,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
 				"weight"	"500"
@@ -1269,7 +1380,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
 				"weight"	"500"
@@ -1281,8 +1393,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1292,8 +1406,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"9"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1303,8 +1419,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
 				"weight"	"500"
@@ -1316,8 +1434,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"tall_hidef"	"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -1329,7 +1449,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"15"
+				"tall"		"15" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"1 599"
@@ -1339,7 +1460,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2"
-				"tall"		"15"	[$WIN32]
+				"tall"		"15" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1350,7 +1472,8 @@ Scheme
 			"3"
 			{
 				"name"		"TF2"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"768 1023"
@@ -1359,7 +1482,8 @@ Scheme
 			"4"
 			{
 				"name"		"TF2"
-				"tall"		"21"
+				"tall"		"21" [$WINDOWS]
+				"tall"		"21" [$LINUX]
 				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"1024 1199"
@@ -1368,7 +1492,8 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"1000"
 				"antialias" 	"1"
 				"yres"		"1200 10000"
@@ -1380,15 +1505,18 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Courier New"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"400"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"1"	[$X360]
 			{
-				"name"		"Tahoma"
-				"tall"		"18"
+				"name"		"Tahoma" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"200"
 				"outline"	"1"
 			}
@@ -1398,7 +1526,8 @@ Scheme
 			"1"
 			{
 				"name"  	"tfd" // tfd.ttf
-				"tall"  	"28"
+				"tall"  	"28" [$WINDOWS]
+				"tall"  	"24" [$LINUX]
 				"weight" 	"0"
 				"additive" 	"0"
 				"antialias" 	"1"
@@ -1410,7 +1539,8 @@ Scheme
 			"1"
 			 {
 				"name"  	"Team Fortress" // tf.ttf
-				"tall"  	"28"
+				"tall"  	"28" [$WINDOWS]
+				"tall"  	"24" [$LINUX]
 				"weight" 	"0"
 				"additive" 	"1"
 				"antialias" 	"1"
@@ -1421,7 +1551,8 @@ Scheme
 			"1"
 			{
 				"name"		"Courier New"
-				"tall"		"90"
+				"tall"		"90" [$WINDOWS]
+				"tall"		"76" [$LINUX]
 				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1434,15 +1565,18 @@ Scheme
 			"1"
 			{
 				"name"  "Team Fortress" // tf.ttf
-				"tall"  "28"
+				"tall"  "28" [$WINDOWS]
+				"tall"  "24" [$LINUX]
 				"weight" "0"
 				"additive" "1"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"  "Verdana"
-				"tall"  "28"
+				"name"  "Verdana" [$WINDOWS]
+				"name"  "TF2 Secondary" [$LINUX]
+				"tall"  "28" [$WINDOWS]
+				"tall"  "28" [$LINUX]
 				"weight" "0"
 				"additive" "1"
 				"antialias" "1"
@@ -1452,8 +1586,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1463,8 +1599,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"tall_hidef"	"32"
 				"weight"	"500"
 				"italic"	"1"
@@ -1475,8 +1613,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"tall_hidef"	"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1486,8 +1626,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"24"
+				"name"		"Tahoma" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"tall_hidef"	"32"
 				"weight"	"900"
 				"italic"	"1"
@@ -1498,8 +1640,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
+				"name"		"Tahoma" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"16" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"tall_hidef"	"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1512,7 +1656,8 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"17" [$LINUX]
 				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1523,7 +1668,8 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1534,7 +1680,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -1544,7 +1691,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"tall_lodef"	"14"
 				"antialias" "1"
 				"weight"	"500"
@@ -1555,7 +1703,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -1565,8 +1714,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
 				"weight"	"800"
@@ -1580,7 +1731,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
-				"tall"			"28"
+				"tall"			"28" [$WINDOWS]
+				"tall"			"28" [$LINUX]
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
 				"antialias"		"1" 
@@ -1595,7 +1747,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
-				"tall"			"40"
+				"tall"			"40" [$WINDOWS]
+				"tall"			"40" [$LINUX]
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
 				"antialias"		"1"
@@ -1610,7 +1763,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Professor"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
 				"antialias" "1"
@@ -1623,7 +1777,8 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Professor"
-				"tall"			"14" [!$OSX]
+				"tall"			"14" [$WINDOWS]
+				"tall"			"14" [$LINUX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
 				"tall_hidef"	"32"
@@ -1636,8 +1791,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"6"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"6" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1647,8 +1804,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -1661,7 +1820,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -1674,7 +1834,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1686,7 +1847,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1698,7 +1860,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -1712,7 +1875,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1724,7 +1888,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1736,7 +1901,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"34"
+				"tall"		"34" [$WINDOWS]
+				"tall"		"34" [$LINUX]
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
 				"weight"	"500"
@@ -1751,7 +1917,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"36" [$LINUX]
 				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -1763,7 +1930,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"52" [$WINDOWS]
+				"tall"		"52" [$LINUX]
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1773,7 +1941,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2"
-				"tall"		"72"
+				"tall"		"72" [$WINDOWS]
+				"tall"		"72" [$LINUX]
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1783,7 +1952,8 @@ Scheme
 			"3"
 			{
 				"name"		"TF2"
-				"tall"		"100"
+				"tall"		"100" [$WINDOWS]
+				"tall"		"100" [$LINUX]
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"768 1023"
@@ -1792,7 +1962,8 @@ Scheme
 			"4"
 			{
 				"name"		"TF2"
-				"tall"		"140"
+				"tall"		"140" [$WINDOWS]
+				"tall"		"140" [$LINUX]
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1024 1199"
@@ -1801,7 +1972,8 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"180"
+				"tall"		"180" [$WINDOWS]
+				"tall"		"180" [$LINUX]
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1200 10000"
@@ -1813,7 +1985,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"36" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -1825,7 +1998,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1836,7 +2010,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1847,7 +2022,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1858,7 +2034,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1869,7 +2046,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"7"
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1881,7 +2059,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -1894,40 +2073,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"0"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"0"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"0"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"0"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"0"
@@ -1938,39 +2127,48 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"24"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
@@ -1980,40 +2178,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"15" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
@@ -2024,8 +2232,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Arial Black"
-				"tall"			"8"
+				"name"			"Arial Black" [$WINDOWS]
+				"name"			"TF2 Secondary" [$LINUX]
+				"tall"			"8" [$WINDOWS]
+				"tall"			"8" [$LINUX]
 				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -2038,7 +2248,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -2051,7 +2262,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
@@ -2063,7 +2275,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
@@ -2075,8 +2288,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
 				"weight"	"0"
@@ -2088,8 +2303,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"9"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
 				"weight"	"400"
@@ -2102,8 +2319,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"11"  [!$OSX]
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
 				"additive"	"0"
@@ -2116,7 +2335,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"36" [$LINUX]
 				"tall_lodef"		"28"
 				"weight"	"500"
 			}
@@ -2126,7 +2346,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"30" [$LINUX]
 				"tall_lodef"		"22"
 				"weight"	"500"
 			}
@@ -2136,7 +2357,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"28"
+				"tall"		"28" [$WINDOWS]
+				"tall"		"28" [$LINUX]
 				"tall_lodef"	"24"
 				"weight"	"500"
 			}
@@ -2145,8 +2367,10 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"22"
+				"name"		"Trebuchet MS" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"22" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"900"
 			}
 		}
@@ -2154,8 +2378,10 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"18"
+				"name"		"Trebuchet MS" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"900"
 			}
 		}		
@@ -2164,7 +2390,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"500"
 			}
 		}
@@ -2173,7 +2400,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 			}
 		}
@@ -2181,8 +2409,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"22" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"tall_lodef"		"18"
 				"weight"	"900"
 			}
@@ -2191,8 +2421,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"tall_lodef"		"18"
 				"weight"	"900"
 			}
@@ -2201,8 +2433,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"15" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"weight"	"900"
 			}
 		}
@@ -2212,7 +2446,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"36" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2223,7 +2458,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"600"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2234,7 +2470,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2244,8 +2481,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"14"
+				"name"		"Trebuchet MS" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"900"
 				"antialias" "1"
 			}
@@ -2254,8 +2493,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"600"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2265,8 +2506,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2276,8 +2519,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2288,8 +2533,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"10"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -2297,8 +2544,10 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
@@ -2306,8 +2555,10 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"15" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
@@ -2320,7 +2571,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2331,7 +2583,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2342,7 +2595,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2353,7 +2607,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2364,7 +2619,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"7"
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2374,8 +2630,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -2385,7 +2643,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2396,7 +2655,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2407,7 +2667,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2419,7 +2680,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2430,7 +2692,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
@@ -2441,8 +2704,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2452,8 +2717,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2463,8 +2730,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2473,8 +2742,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -2485,8 +2756,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"7" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2498,7 +2771,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"400"
 				"yres"		"480 599"
 				"additive"	"0"
@@ -2508,7 +2782,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"yres"		"600 1023"
@@ -2518,7 +2793,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"	
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"yres"		"1024 6000"
@@ -2532,7 +2808,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"800"
 				"yres"		"480 599"
 				"additive"	"0"
@@ -2542,7 +2819,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"800"
 				"additive"	"0"
 				"yres"		"600 1023"
@@ -2552,7 +2830,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"weight"	"800"
 				"additive"	"0"
 				"yres"		"1024 6000"
@@ -2566,7 +2845,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2578,7 +2858,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Professor"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"antialias" "1"
 				"custom"		"1" [$OSX]
 				"weight"	"500"
@@ -2590,7 +2871,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"400"
 				"yres"		"480 599"
 				"additive"	"0"
@@ -2599,7 +2881,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"yres"		"600 1023"
@@ -2608,7 +2891,8 @@ Scheme
 			"3"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"yres"		"1024 6000"
@@ -2621,7 +2905,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"400"
 				"yres"		"480 599"
 				"additive"	"0"
@@ -2631,7 +2916,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"yres"		"600 1023"
@@ -2641,7 +2927,8 @@ Scheme
 			"3"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"yres"		"1024 6000"
@@ -2655,7 +2942,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"800"
 				"yres"		"480 599"
 				"additive"	"0"
@@ -2664,7 +2952,8 @@ Scheme
 			"2"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"800"
 				"additive"	"0"
 				"yres"		"600 1023"
@@ -2673,7 +2962,8 @@ Scheme
 			"3"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"800"
 				"additive"	"0"
 				"yres"		"1024 6000"
@@ -2686,7 +2976,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"13"
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2698,7 +2989,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2710,7 +3002,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2721,8 +3014,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2732,8 +3027,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2743,8 +3040,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"400"
 				"antialias" "1"
 				"additive"	"0"
@@ -2755,8 +3054,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"9"
+				"name"		"Trebuchet MS" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"400"
 				"antialias" "1"
 				"additive"	"0"
@@ -2771,24 +3072,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -2796,8 +3103,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -2805,8 +3114,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"16"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"16" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -2818,7 +3129,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2828,24 +3140,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"13"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"13" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"14"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -2853,8 +3171,10 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"20"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -2862,8 +3182,10 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"
+				"name"		"Verdana" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"22" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -2871,8 +3193,10 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
-				"tall"		"12"
+				"name"		"Arial" [$WINDOWS]
+				"name"		"TF2 Secondary" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -2882,7 +3206,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2893,7 +3218,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2904,7 +3230,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
 				"weight"	"500"
@@ -2917,7 +3244,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2928,7 +3256,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
 				"weight"	"500"
@@ -2945,7 +3274,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2956,7 +3286,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2968,7 +3299,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"15"
+				"tall"		"15" [$WINDOWS]
+				"tall"		"15" [$LINUX]
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -2981,7 +3313,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2993,7 +3326,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"antialias" 	"1"
 			}
@@ -3004,7 +3338,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"11"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
@@ -3017,7 +3352,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3031,7 +3367,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"7"
+				"tall"		"7" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
@@ -3045,7 +3382,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"		
-				"tall"		"7"
+				"tall"		"7" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3058,7 +3396,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3071,7 +3410,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3084,7 +3424,8 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"26" [$LINUX]
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3096,8 +3437,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"8"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"8" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3105,8 +3448,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"12"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"12" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3114,8 +3459,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"16"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"16" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3123,8 +3470,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"20"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"20" [$WINDOWS]
+				"tall"		"17" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3132,8 +3481,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"24"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"24" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3141,8 +3492,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"32"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"32" [$WINDOWS]
+				"tall"		"27" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3150,8 +3503,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"36"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"36" [$WINDOWS]
+				"tall"		"31" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3159,8 +3514,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"42"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"42" [$WINDOWS]
+				"tall"		"38" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3168,8 +3525,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AzonixRegular"
-				"tall"		"48"
+				"name"		"AzonixRegular" [$WINDOWS]
+				"name"		"Azonix" [$LINUX]
+				"tall"		"48" [$WINDOWS]
+				"tall"		"41" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3180,7 +3539,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3189,7 +3549,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3198,7 +3559,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3206,8 +3568,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC"
-				"tall"		"16"
+				"name"		"Code-Pro-LC" [$WINDOWS]
+				"name"		"Code Pro LC" [$LINUX]
+				"tall"		"16" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3217,7 +3581,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"17" [$LINUX]
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -3229,7 +3594,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"17" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3238,7 +3604,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"17" [$LINUX]
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -3249,7 +3616,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3258,7 +3626,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"27"
+				"tall"		"27" [$WINDOWS]
+				"tall"		"23" [$LINUX]
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
@@ -3269,7 +3638,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"32"
+				"tall"		"32" [$WINDOWS]
+				"tall"		"27" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3278,7 +3648,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"31" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3287,7 +3658,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"42"
+				"tall"		"42" [$WINDOWS]
+				"tall"		"36" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3296,7 +3668,8 @@ Scheme
 			"1"
 			{
 				"name"		"ahud"
-				"tall"		"48"
+				"tall"		"48" [$WINDOWS]
+				"tall"		"41" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3306,7 +3679,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3315,7 +3689,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3324,7 +3699,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3333,7 +3709,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3342,7 +3719,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3351,7 +3729,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"19" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3360,7 +3739,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3369,7 +3749,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"32"
+				"tall"		"32" [$WINDOWS]
+				"tall"		"26" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3378,7 +3759,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"29" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3387,7 +3769,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"42"
+				"tall"		"42" [$WINDOWS]
+				"tall"		"34" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3396,7 +3779,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hypnotize Icons V3s"
-				"tall"		"48"
+				"tall"		"48" [$WINDOWS]
+				"tall"		"38" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3406,7 +3790,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3415,7 +3800,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3424,7 +3810,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3433,7 +3820,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3442,7 +3830,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"19" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3451,7 +3840,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"32"
+				"tall"		"32" [$WINDOWS]
+				"tall"		"26" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3460,7 +3850,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"29" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3469,7 +3860,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"42"
+				"tall"		"42" [$WINDOWS]
+				"tall"		"34" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3478,7 +3870,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"48"
+				"tall"		"48" [$WINDOWS]
+				"tall"		"38" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3488,7 +3881,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"80"
+				"tall"		"80" [$WINDOWS]
+				"tall"		"64" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3498,7 +3892,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"95"
+				"tall"		"95" [$WINDOWS]
+				"tall"		"76" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3508,7 +3903,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"100"
+				"tall"		"100" [$WINDOWS]
+				"tall"		"80" [$LINUX]
 				"antialias" "1"
 			}
 		}
@@ -3518,7 +3914,8 @@ Scheme
 			"1"
 			{
 				"name"		"tf2secondary"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"7" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3529,7 +3926,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3540,7 +3938,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3551,7 +3950,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3562,7 +3962,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3573,7 +3974,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3584,7 +3986,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3595,7 +3998,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"20" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3606,7 +4010,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3617,7 +4022,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"26"
+				"tall"		"26" [$WINDOWS]
+				"tall"		"23" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3628,7 +4034,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"28"
+				"tall"		"28" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3639,7 +4046,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"26" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3650,7 +4058,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"32"
+				"tall"		"32" [$WINDOWS]
+				"tall"		"27" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3661,7 +4070,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"34"
+				"tall"		"34" [$WINDOWS]
+				"tall"		"29" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3672,7 +4082,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"31" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3683,7 +4094,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"38"
+				"tall"		"38" [$WINDOWS]
+				"tall"		"32" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3695,7 +4107,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"40"
+				"tall"		"40" [$WINDOWS]
+				"tall"		"34" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3706,7 +4119,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"42"
+				"tall"		"42" [$WINDOWS]
+				"tall"		"36" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3717,7 +4131,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"44"
+				"tall"		"44" [$WINDOWS]
+				"tall"		"37" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3728,7 +4143,8 @@ Scheme
 			"1"
 			{
 				"name"		"haribold"
-				"tall"		"46"
+				"tall"		"46" [$WINDOWS]
+				"tall"		"41" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3736,227 +4152,6 @@ Scheme
 		}
 
 		//japanese
-		"Meiryo8"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo10"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"10"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo12"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"12"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo14"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo16"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo18"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo20"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo22"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"22"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo24"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo26"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"26"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo28"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"28"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo30"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"30"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo32"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"32"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo34"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"34"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo36"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"36"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo38"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"38"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"Meiryo40"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo42"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"42"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo44"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
-		"Meiryo46"
-		{
-			"1"
-			{
-				"name"		"Meiryo"
-				"tall"		"46"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}
 		
 		//icon font
 		"TF2Icons8"
@@ -3964,7 +4159,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3975,7 +4171,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3986,7 +4183,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3997,7 +4195,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4008,7 +4207,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4019,7 +4219,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4030,7 +4231,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4041,7 +4243,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4052,7 +4255,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"19" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4063,7 +4267,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"26"
+				"tall"		"26" [$WINDOWS]
+				"tall"		"21" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4074,7 +4279,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"28"
+				"tall"		"28" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4085,7 +4291,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4096,7 +4303,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"32"
+				"tall"		"32" [$WINDOWS]
+				"tall"		"26" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4107,7 +4315,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"34"
+				"tall"		"34" [$WINDOWS]
+				"tall"		"27" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4118,7 +4327,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"29" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4129,7 +4339,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"38"
+				"tall"		"38" [$WINDOWS]
+				"tall"		"30" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4141,7 +4352,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"40"
+				"tall"		"40" [$WINDOWS]
+				"tall"		"32" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4152,7 +4364,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"42"
+				"tall"		"42" [$WINDOWS]
+				"tall"		"34" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4163,7 +4376,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"44"
+				"tall"		"44" [$WINDOWS]
+				"tall"		"35" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4174,7 +4388,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Class Icons V2"
-				"tall"		"46"
+				"tall"		"46" [$WINDOWS]
+				"tall"		"37" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4186,7 +4401,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4197,7 +4413,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"10"
+				"tall"		"10" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4208,7 +4425,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"12"
+				"tall"		"12" [$WINDOWS]
+				"tall"		"10" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4219,7 +4437,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"14"
+				"tall"		"14" [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4230,7 +4449,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"16"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4241,7 +4461,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"18"
+				"tall"		"18" [$WINDOWS]
+				"tall"		"14" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4252,7 +4473,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"20"
+				"tall"		"20" [$WINDOWS]
+				"tall"		"16" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4263,7 +4485,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"22"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"18" [$LINUX]
 				"weight"	"200"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4274,7 +4497,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"24"
+				"tall"		"24" [$WINDOWS]
+				"tall"		"19" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4285,7 +4509,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"26"
+				"tall"		"26" [$WINDOWS]
+				"tall"		"21" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4296,7 +4521,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"28"
+				"tall"		"28" [$WINDOWS]
+				"tall"		"22" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4307,7 +4533,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"30"
+				"tall"		"30" [$WINDOWS]
+				"tall"		"24" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4318,7 +4545,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"32"
+				"tall"		"32" [$WINDOWS]
+				"tall"		"26" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4329,7 +4557,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"34"
+				"tall"		"34" [$WINDOWS]
+				"tall"		"27" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4340,7 +4569,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"36"
+				"tall"		"36" [$WINDOWS]
+				"tall"		"29" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4351,7 +4581,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"38"
+				"tall"		"38" [$WINDOWS]
+				"tall"		"30" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4363,7 +4594,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"40"
+				"tall"		"40" [$WINDOWS]
+				"tall"		"32" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4374,7 +4606,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"42"
+				"tall"		"42" [$WINDOWS]
+				"tall"		"34" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4385,7 +4618,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"44"
+				"tall"		"44" [$WINDOWS]
+				"tall"		"35" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4396,7 +4630,8 @@ Scheme
 			"1"
 			{
 				"name"		"JofreIconsRe"
-				"tall"		"46"
+				"tall"		"46" [$WINDOWS]
+				"tall"		"37" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -7245,6 +7480,15 @@ Scheme
 	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
+		"linux_dejavu"		"resource/linux_fonts/dejavusans.ttf" [$LINUX]
+		"linux_dejavu_b"		"resource/linux_fonts/dejavusans-bold.ttf" [$LINUX]
+		"linux_dejavu_bo"	"resource/linux_fonts/dejavusans-boldoblique.ttf" [$LINUX]
+		"linux_dejavu_o"		"resource/linux_fonts/dejavusans-oblique.ttf" [$LINUX]
+		"linux_liberation"	"resource/linux_fonts/liberationsans-regular.ttf" [$LINUX]
+		"linux_liberation_b"	"resource/linux_fonts/liberationsans-bold.ttf" [$LINUX]
+		"linux_liberation_m"	"resource/linux_fonts/liberationmono-regular.ttf" [$LINUX]
+		"linux_fira"		"resource/linux_fonts/firasans-regular.ttf" [$LINUX]
+		"linux_noto_cjk"		"resource/linux_fonts/notosanscjk-regular.ttc" [$LINUX]
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 		"3"
@@ -7366,12 +7610,12 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/Azonix.ttf"
+			"font"	"resource/fonts/azonix.ttf"
 			"name"  "AzonixRegular"
 		}
 		"9"
 		{
-			"font"	"resource/fonts/CodeProLC.otf"
+			"font"	"resource/fonts/codeprolc.otf"
 			"name"  "Code-Pro-LC"
 		}
 		"10"
@@ -7382,7 +7626,7 @@ Scheme
 		}
 		"11"
 		{
-			"font"	"resource/fonts/ReadyUp_Symbols.otf" [$WINDOWS]
+			"font"	"resource/fonts/readyup_symbols.otf" [$WINDOWS]
 			"font"	"resource/fonts/readyup_symbols_linux.otf" [$LINUX]
 			"name"  "ReadyUp Symbols"
 		}
@@ -7394,22 +7638,22 @@ Scheme
 		}
 		"13" 
 		{
-			"font" "resource/fonts/Quicksand-Bold.ttf"
+			"font" "resource/fonts/quicksand-bold.ttf"
 			"name" "Quicksand Bold"
 		}
 		"14" 
 		{
-			"font" "resource/fonts/Quicksand-BoldNM.ttf"
+			"font" "resource/fonts/quicksand-boldnm.ttf"
 			"name" "Quicksand BoldNM"
 		}
 		"15" 
 		{
-			"font" "resource/fonts/Quicksand-Light.ttf"
+			"font" "resource/fonts/quicksand-light.ttf"
 			"name" "Quicksand Light"
 		}
 		"16" 
 		{
-			"font" "resource/fonts/JofreIconsMaster.ttf" [$WINDOWS]
+			"font" "resource/fonts/jofreiconsmaster.otf" [$WINDOWS]
 			"font" "resource/fonts/jofreiconsmaster_linux.ttf" [$LINUX]
 			"name" "JofreIconsRe"
 		}
@@ -7424,12 +7668,6 @@ Scheme
 			"font"	"resource/fonts/ahud.otf" [$WINDOWS]
 			"font"	"resource/fonts/ahud_linux.ttf" [$LINUX]
 			"name"  "ahud"
-		}
-		"19"
-		{
-			"font"	"resource/fonts/Meiryo.ttf" [$WINDOWS]
-			"font"	"resource/fonts/Meiryo.ttf" [$LINUX]
-			"name"  "Meiryo"
 		}
 	}
 }

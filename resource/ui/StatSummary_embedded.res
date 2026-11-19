@@ -22,7 +22,7 @@
 		"zpos"								"0"
 		"wide"								"f0"
 		"tall"								"480"
-		"visible"							"1"
+		"visible"							"0"
 		"enabled"							"1"
 		"image"								"replay/thumbnails/menu/menugif"
 		"scaleimage"						"1"
@@ -37,7 +37,7 @@
 		"zpos"								"0"
 		"wide"								"f0"
 		"tall"								"f0"
-		"visible"							"1"
+		"visible"							"0"
 		"enabled"							"1"
 		"bgcolor_override"					"0 0 0 150"
 		"paintbackground"					"1"
@@ -123,6 +123,8 @@
 					"defaultBgColor_override"		"Blank"
 					"armedFgColor_override"			"TanLight"
 					"armedBgColor_override"			"Blank"
+					"selectedBgColor_override"			"Blank"
+					"depressedBgColor_override"			"Blank"
 					"paintbackgroundtype"			"2"
 				}
 			}
@@ -181,6 +183,8 @@
 					"defaultBgColor_override"		"Blank"
 					"armedFgColor_override"			"TanLight"
 					"armedBgColor_override"			"Blank"
+					"selectedBgColor_override"			"Blank"
+					"depressedBgColor_override"			"Blank"
 					"paintbackgroundtype"			"2"
 				}
 			}
@@ -238,6 +242,8 @@
 					"defaultBgColor_override"		"Blank"
 					"armedFgColor_override"			"TanLight"
 					"armedBgColor_override"			"Blank"
+					"selectedBgColor_override"			"Blank"
+					"depressedBgColor_override"			"Blank"
 					"paintbackgroundtype"			"2"
 				}
 			}

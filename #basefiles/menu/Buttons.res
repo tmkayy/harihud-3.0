@@ -161,7 +161,12 @@
 		"paintbackground"					"1"
 		
 		"armedBgColor_override"				"0 0 0 200"
+		"selectedBgColor_override"				"0 0 0 200"
+		"depressedBgColor_override"				"0 0 0 200"
 		"defaultBgColor_override"			"108 201 98 0"
+		"defaultFgColor_override"			"TanLight"
+		"armedFgColor_override"				"TanLightSelect"
+		"depressedFgColor_override"			"TanLightSelect"
 		
 		"image_drawcolor"					"235 226 202 255"	
 	}
@@ -195,7 +200,12 @@
 		"paintbackground"					"1"
 		
 		"armedBgColor_override"				"0 0 0 200"
+		"selectedBgColor_override"				"0 0 0 200"
+		"depressedBgColor_override"				"0 0 0 200"
 		"defaultBgColor_override"			"108 201 98 0"		
+		"defaultFgColor_override"			"TanLight"
+		"armedFgColor_override"				"TanLightSelect"
+		"depressedFgColor_override"			"TanLightSelect"
 		
 		"pin_to_sibling"					"CreateServer"
 		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
@@ -232,7 +242,12 @@
 		"paintbackground"					"1"
 		
 		"armedBgColor_override"				"0 0 0 200"
+		"selectedBgColor_override"				"0 0 0 200"
+		"depressedBgColor_override"				"0 0 0 200"
 		"defaultBgColor_override"			"108 201 98 0"	
+		"defaultFgColor_override"			"TanLight"
+		"armedFgColor_override"				"TanLightSelect"
+		"depressedFgColor_override"			"TanLightSelect"
 
 		"pin_to_sibling"					"CreateServer"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
@@ -269,7 +284,12 @@
 		"paintbackground"					"1"
 		
 		"armedBgColor_override"				"0 0 0 200"
+		"selectedBgColor_override"				"0 0 0 200"
+		"depressedBgColor_override"				"0 0 0 200"
 		"defaultBgColor_override"			"108 201 98 0"	
+		"defaultFgColor_override"			"TanLight"
+		"armedFgColor_override"				"TanLightSelect"
+		"depressedFgColor_override"			"TanLightSelect"
 
 		"pin_to_sibling"					"Store"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
@@ -306,7 +326,12 @@
 		"paintbackground"					"1"
 		
 		"armedBgColor_override"				"0 0 0 200"
+		"selectedBgColor_override"				"0 0 0 200"
+		"depressedBgColor_override"				"0 0 0 200"
 		"defaultBgColor_override"			"108 201 98 0"		
+		"defaultFgColor_override"			"TanLight"
+		"armedFgColor_override"				"TanLightSelect"
+		"depressedFgColor_override"			"TanLightSelect"
 
 		"pin_to_sibling"					"Console"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
@@ -343,7 +368,12 @@
 		"paintbackground"					"1"
 		
 		"armedBgColor_override"				"0 0 0 200"
+		"selectedBgColor_override"				"0 0 0 200"
+		"depressedBgColor_override"				"0 0 0 200"
 		"defaultBgColor_override"			"108 201 98 0"	
+		"defaultFgColor_override"			"TanLight"
+		"armedFgColor_override"				"TanLightSelect"
+		"depressedFgColor_override"			"TanLightSelect"
 
 		"pin_to_sibling"					"Options"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
@@ -386,17 +416,18 @@
 			
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLightSelect"
+			"depressedFgColor_override"		"TanLightSelect"
 		}
 	}
 	"QuestLogButton"
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"QuestLogButton"
-		"xpos"								"-9"
-		"ypos"								"35"
+		"xpos"								"0"
+		"ypos"								"15"
 		"zpos"								"2"
 		"wide"								"40"
-		"tall"								"40"
+		"tall"								"20"
 		"visible"							"1"
 		"enabled"							"1"
 		
@@ -410,7 +441,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"40"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -429,6 +460,7 @@
 			
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLightSelect"
+			"depressedFgColor_override"		"TanLightSelect"
 		}
 	}
 	"Achievement"
@@ -436,7 +468,7 @@
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Achievement"
 		"xpos"								"0"
-		"ypos"								"5"
+		"ypos"								"25"
 		"zpos"								"2"
 		"wide"								"40"
 		"tall"								"20"
@@ -453,7 +485,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"40"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -472,6 +504,7 @@
 			
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLightSelect"
+			"depressedFgColor_override"		"TanLightSelect"
 		}
 	}
 	"Workshop"
@@ -496,7 +529,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"40"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -515,6 +548,7 @@
 			
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLightSelect"
+			"depressedFgColor_override"		"TanLightSelect"
 		}
 	}
 	"Replays"
@@ -539,7 +573,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"20"
+			"wide"						"40"
 			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -558,6 +592,7 @@
 			
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLightSelect"
+			"depressedFgColor_override"		"TanLightSelect"
 		}
 	}	
 	"BGPanel2"

@@ -100,6 +100,7 @@
 			"paintbackground"						"1"
 			"defaultBgColor_override" 				"46 43 42 115"
 			"armedBgColor_override" 				"46 43 42 150"
+			"selectedBgColor_override" 				"46 43 42 150"
 			"depressedBgColor_override" 			"46 43 42 150"
 
 			"SubImage"
@@ -306,7 +307,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"ReplayDefaultBorder"
+				"border"		"GrayDialogBorder"
 			}
 
 			"QueueLogoButton"
@@ -568,6 +569,8 @@
 				"actionsignallevel"	"3"
 
 				"armedBgColor_override"		"CreditsGreen"
+				"selectedBgColor_override"		"CreditsGreen"
+				"depressedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -606,6 +609,8 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"			"201 98 98 255"
+			"selectedBgColor_override"			"201 98 98 255"
+			"depressedBgColor_override"			"201 98 98 255"
 			"defaultBgColor_override"		"201 98 98 180"
 
 			"FgColor"						"TanLight"
@@ -646,6 +651,8 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"			"232 114 114 255"
+			"selectedBgColor_override"			"232 114 114 255"
+			"depressedBgColor_override"			"232 114 114 255"
 			"defaultBgColor_override"		"232 114 114 180"
 
 			"FgColor"						"TanLight"
@@ -686,6 +693,8 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"armedBgColor_override"			"120 200 120 255"
+			"selectedBgColor_override"			"120 200 120 255"
+			"depressedBgColor_override"			"120 200 120 255"
 			"defaultBgColor_override"		"120 200 120 200"
 
 			"FgColor"						"TanLight"

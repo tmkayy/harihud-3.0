@@ -337,6 +337,8 @@
 					"DefaultBGColor_Override"		"Blank"
 					"ArmedFGColor_Override"			"White"
 					"ArmedBGColor_Override"			"Blank"
+					"selectedBgColor_override"			"Blank"
+					"depressedBgColor_override"			"Blank"
 				}
 			}
 			"BarChartComboB"
@@ -372,6 +374,8 @@
 					"DefaultBGColor_Override"		"Blank"
 					"ArmedFGColor_Override"			"White"
 					"ArmedBGColor_Override"			"Blank"
+					"selectedBgColor_override"			"Blank"
+					"depressedBgColor_override"			"Blank"
 				}
 			}
 			"ClassCombo"
@@ -406,6 +410,8 @@
 					"DefaultBGColor_Override"		"Blank"
 					"ArmedFGColor_Override"			"White"
 					"ArmedBGColor_Override"			"Blank"
+					"selectedBgColor_override"			"Blank"
+					"depressedBgColor_override"			"Blank"
 				}
 			}
 		}

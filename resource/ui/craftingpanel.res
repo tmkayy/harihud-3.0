@@ -112,6 +112,7 @@
 			"defaultBgColor_override" 				"Blank"
 			"armedFgColor_override" 				"Positive"
 			"armedBgColor_override" 				"Blank"
+			"selectedBgColor_override" 				"Blank"
 			"depressedFgColor_override" 			"Positive"
 			"depressedBgColor_override" 			"Blank"
 		}
@@ -287,6 +288,7 @@
 			
 			"defaultBgColor_override"	"Blank"
 			"armedBgColor_override"		"Blank"
+			"selectedBgColor_override"		"Blank"
 			"depressedBgColor_override" "Blank"
 
 			"defaultFgColor_override"	"TanLight"

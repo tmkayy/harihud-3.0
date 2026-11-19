@@ -138,7 +138,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabelNew"
-		"font"			"Meiryo20"
+		"font"			"TF2Secondary20"
 		"labelText"		"ブルーチーム"
 		"textAlignment"		"west"
 		"xpos"			"-6"
@@ -165,7 +165,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabelShadow"
-		"font"			"Meiryo20"
+		"font"			"TF2Secondary20"
 		"labelText"		"ブルーチーム"
 		"textAlignment"		"west"
 		"xpos"			"-7"
@@ -288,7 +288,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabelNew"
-		"font"			"Meiryo20"
+		"font"			"TF2Secondary20"
 		"labelText"		"レッドチーム"
 		"textAlignment"		"east"
 		"xpos"			"-6"
@@ -315,7 +315,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabelShadow"
-		"font"			"Meiryo20"
+		"font"			"TF2Secondary20"
 		"labelText"		"レッドチーム"
 		"textAlignment"		"east"
 		"xpos"			"-5"
