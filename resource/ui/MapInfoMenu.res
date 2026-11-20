@@ -13,6 +13,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"bgcolor_override"	"Blank"
+		"infocus_bgcolor_override"	"Blank"
+		"outoffocus_bgcolor_override"	"Blank"
 	}
 	
 	"MapInfoTitle"
