@@ -138,8 +138,8 @@
 		"default"							"0"
 		"Command"							"back"
 		
-		"border_default"	 	 	 		"noborder"
-		"border_armed"		 	 	 		"noborder"	
+		"border_default"	 	 	 		"ButtonBorder"
+		"border_armed"		 	 	 		"ButtonBorder"	
 
 		"paintbackground"	 	 	 		"1"
 		"PaintBackgroundType"    "2"		
@@ -150,9 +150,10 @@
 		"defaultFgColor_override" 			"TanLight"
 		"armedFgColor_override" 			"black_bright_hari"
 		"depressedFgColor_override"			"black_bright_hari"
-		"armedBgColor_override" 			"TanLight"
-		"selectedBgColor_override" 			"TanLight"
-		"depressedBgColor_override"			"TanLight"			
+		"armedBgColor_override" 			"Positive"
+		"selectedBgColor_override" 			"black_bright_hari"
+		"selectedFgColor_override"			"TanLight"
+		"depressedBgColor_override"			"Positive"			
 		
 	}		
 	"MenuBG"

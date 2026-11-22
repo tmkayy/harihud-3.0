@@ -844,10 +844,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"c-166"
+		"ypos"					"r175"
+		"wide"					"338"
+		"tall"					"164"
 	}
 	
 	PVEWinPanel
@@ -1040,12 +1040,12 @@
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-120"
 		"ypos"					"75"
 		"ypos_hidef"				"90"
 		"ypos_lodef"				"90"
-		"wide"					"320"
-		"tall"					"150"
+		"wide"					"240"
+		"tall"					"64"
 	}
 
 	HudArenaCapPointCountdown
@@ -1115,9 +1115,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"300"
+		"ypos"					"45"
 		"wide"					"640"
-		"tall"					"100"
+		"tall"					"140"
 	}
 
 	AchievementNotificationPanel	
@@ -1173,7 +1173,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"70"
 	}	
 	
 	"HudAchievementTracker"

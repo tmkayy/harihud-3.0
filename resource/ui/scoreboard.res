@@ -708,7 +708,7 @@
 
 		if_mvm
 		{
-			"fgcolor"		"ahudBlack"
+			"fgcolor"		"black_bright_hari"
 		}
 	}
 	"HorizontalLine"
@@ -1008,8 +1008,30 @@
 
 			if_mvm
 			{
+				"visible"		"0"
+			}
+		}
+
+		"StatsPanelTeamBG"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"StatsPanelTeamBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"560"
+			"tall"			"f0"
+			"visible"		"0"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/panels/class_bar_red"
+			"teambg_1"		"replay/thumbnails/panels/class_bar_red"
+			"teambg_2"		"replay/thumbnails/panels/class_bar_red"
+			"teambg_3"		"replay/thumbnails/panels/class_bar_blue"
+
+			if_mvm
+			{
 				"visible"		"1"
-				"bgcolor_override"	"ahudWhite"
 			}
 		}
 
@@ -1034,7 +1056,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Kills"
@@ -1058,7 +1080,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Kills2"
@@ -1082,7 +1104,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"DeathsLabel"
@@ -1123,7 +1145,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Deaths2"
@@ -1147,7 +1169,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"GameType"
@@ -1171,7 +1193,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"AssistsLabel"
@@ -1195,7 +1217,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"DestructionLabel"
@@ -1219,7 +1241,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"CapturesLabel"
@@ -1243,7 +1265,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"DefensesLabel"
@@ -1267,7 +1289,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Assists"
@@ -1291,7 +1313,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Assists2"
@@ -1315,7 +1337,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Destruction"
@@ -1339,7 +1361,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Destruction2"
@@ -1363,7 +1385,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Captures"
@@ -1387,7 +1409,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Captures2"
@@ -1411,7 +1433,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Defenses"
@@ -1435,7 +1457,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Defenses2"
@@ -1459,7 +1481,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"DominationLabel"
@@ -1483,7 +1505,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"RevengeLabel"
@@ -1507,7 +1529,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"HealingLabel"
@@ -1531,7 +1553,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"InvulnLabel"
@@ -1555,7 +1577,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Domination"
@@ -1579,7 +1601,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Domination2"
@@ -1603,7 +1625,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Revenge"
@@ -1627,7 +1649,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Revenge2"
@@ -1651,7 +1673,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Healing"
@@ -1675,7 +1697,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Healing2"
@@ -1699,7 +1721,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Invuln"
@@ -1723,7 +1745,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Invuln2"
@@ -1747,7 +1769,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"TeleportsLabel"
@@ -1771,7 +1793,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"HeadshotsLabel"
@@ -1795,7 +1817,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"BackstabsLabel"
@@ -1819,7 +1841,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"BonusLabel"
@@ -1843,7 +1865,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Teleports"
@@ -1867,7 +1889,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Teleports2"
@@ -1891,7 +1913,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Headshots"
@@ -1915,7 +1937,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Headshots2"
@@ -1939,7 +1961,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Backstabs"
@@ -1963,7 +1985,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Backstabs2"
@@ -1987,7 +2009,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Bonus"
@@ -2011,7 +2033,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Bonus2"
@@ -2035,7 +2057,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"SupportLabel"
@@ -2059,7 +2081,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Support"
@@ -2082,7 +2104,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Support2"
@@ -2106,7 +2128,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"DamageLabel"
@@ -2130,7 +2152,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Damage"
@@ -2153,7 +2175,7 @@
 			if_mvm
 			{
 				"visible"		"0"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 		"Damage2"
@@ -2177,7 +2199,7 @@
 			if_mvm
 			{
 				"visible"		"1"
-				"fgcolor"		"ahudBlack"
+				"fgcolor"		"black_bright_hari"
 			}
 		}
 	}
@@ -2187,7 +2209,7 @@
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"			"MvMScoreboard"
 		"xpos"				"0"
-		"ypos"				"5"
+		"ypos"				"0"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"

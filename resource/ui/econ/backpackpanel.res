@@ -66,6 +66,11 @@
 				"font"							"Backpack"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
+				"defaultBgColor_override"		"black_bright_hari"
+				"armedBgColor_override"		"Positive"
+				"depressedBgColor_override"		"Positive"
+				"selectedBgColor_override"		"black_bright_hari"
+				"paintbackground"		"1"
 			}
 
 			"New"

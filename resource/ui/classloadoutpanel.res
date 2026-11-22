@@ -217,6 +217,16 @@
 		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 
 			
+		"paintbackground"			"1"
+		"defaultBgColor_override"	"black_bright_hari"
+		"defaultFgColor_override"	"TanLight"
+		"armedBgColor_override"		"TanLight"
+		"armedFgColor_override"		"black_bright_hari"
+		"depressedBgColor_override"	"TanLight"
+		"depressedFgColor_override"	"black_bright_hari"
+		"selectedBgColor_override"	"TanLight"
+		"selectedFgColor_override"	"black_bright_hari"
+
 	}	
 	"CharacterLoadoutButton"
 	{
@@ -247,6 +257,16 @@
 		"pin_to_sibling" "loadout_preset_panel"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
+
+		"paintbackground"			"1"
+		"defaultBgColor_override"	"black_bright_hari"
+		"defaultFgColor_override"	"TanLight"
+		"armedBgColor_override"		"TanLight"
+		"armedFgColor_override"		"black_bright_hari"
+		"depressedBgColor_override"	"TanLight"
+		"depressedFgColor_override"	"black_bright_hari"
+		"selectedBgColor_override"	"TanLight"
+		"selectedFgColor_override"	"black_bright_hari"
 
 	}							
 	"tank"

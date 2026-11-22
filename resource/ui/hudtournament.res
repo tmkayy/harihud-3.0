@@ -118,7 +118,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"TF2Secondary10"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -134,10 +134,11 @@
 				if_mvm
 				{
 					"xpos"				"4"
-					"ypos"				"25"
+					"ypos"				"24"
 					"wide"			"48"
+					"tall"			"11"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"TF2Secondary10"
 				}
 
 				if_competitive
@@ -147,7 +148,7 @@
 					"wide"				"p0.9"
 					"tall"				"p0.22"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"TF2Secondary10"
 					"proportionaltoparent" "1"
 				}
 
@@ -157,7 +158,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"TF2Secondary10"
 				}
 			}
 			

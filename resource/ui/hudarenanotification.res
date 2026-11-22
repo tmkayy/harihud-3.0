@@ -1,0 +1,98 @@
+"Resource/UI/HudArenaNotification.res"
+{
+	"HudArenaNotificationBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HudArenaNotificationBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"240"
+		"tall"			"64"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/sakura_note_blue"
+		"scaleImage"		"1"
+		"teambg_2"		"replay/thumbnails/panels/sakura_note_red"
+		"teambg_3"		"replay/thumbnails/panels/sakura_note_blue"
+	}
+
+	"WarningLabel"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"WarningLabel"
+		"font"			"TF2Secondary46"
+		"xpos"			"6"
+		"ypos"			"4"
+		"zpos"			"1"
+		"wide"			"28"
+		"tall"			"56"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		"!"
+		"textAlignment"		"north"
+		"fgcolor_override"		"black_bright_hari"
+	}
+	"BalanceLabel"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"BalanceLabel"
+		"font"			"TF2Secondary14"
+		"xpos"			"36"
+		"ypos"			"9"
+		"zpos"			"1"
+		"wide"			"196"	[$WIN32]
+		"wide"			"180"	[$X360]
+		"tall"			"18"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		""
+		"textAlignment"		"west"
+		"fgcolor_override"		"black_bright_hari"
+	}
+
+	"BalanceLabelTip"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"BalanceLabelTip"
+		"font"			"TF2Secondary10"
+		"xpos"			"36"
+		"ypos"			"28"
+		"zpos"			"1"
+		"wide"			"196"	[$WIN32]
+		"wide"			"180"	[$X360]
+		"tall"			"28"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		"%notificationtip%"
+		"textAlignment"		"west"
+		"fgcolor_override"		"black_bright_hari"
+	}
+	"SwitchImage"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"SwitchImage"
+		"xpos"			"8"
+		"ypos"			"14"
+		"zpos"			"1"
+		"wide"			"24"
+		"tall"			"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/ico_teambalance"
+		"scaleImage"		"1"
+	}
+}

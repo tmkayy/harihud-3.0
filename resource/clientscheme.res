@@ -294,25 +294,25 @@ Scheme
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetArmedColorFg						"black_bright_hari"
+		Econ.Button.PresetDepressedColorFg					"black_bright_hari"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"black_bright_hari"
+		Econ.Button.PresetArmedColorBg						"Positive"
+		Econ.Button.PresetDepressedColorBg					"Positive"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"black_bright_hari"
+		Button.BgColor					"TanLight"
+		Button.ArmedTextColor			"black_bright_hari"
+		Button.ArmedBgColor				"Positive"
+		Button.SelectedTextColor		"black_bright_hari"
+		Button.SelectedBgColor			"TanLight"
+		Button.DepressedTextColor		"black_bright_hari"
+		Button.DepressedBgColor			"Positive"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -5141,9 +5141,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_red"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
+			"image"					"replay/thumbnails/panels/sakura_panel_red"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
@@ -5163,9 +5163,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_blu"
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
+			"image"					"replay/thumbnails/panels/sakura_panel_blue"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}

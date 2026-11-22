@@ -216,9 +216,14 @@
             "zpos"            "-10"
             "wide"            "36"
             "tall"            "20"
-            "visible"        "1"
+            "visible"        "0"
             "PaintBackgroundType"    "2"
             "bgcolor_override"    "27 27 27 200"
+
+		if_match
+		{
+			"visible"	"1"
+		}
 	}
 
 	"BGFrame"

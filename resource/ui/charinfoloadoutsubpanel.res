@@ -66,6 +66,8 @@
 		"paintborder"					"1"
 		
 		"FgColor_override"				"TanLight"
+		"defaultFgColor_override"				"TanLight"
+		"selectedFgColor_override"				"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -102,6 +104,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -139,6 +142,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -175,6 +179,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -212,6 +217,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -248,6 +254,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -285,6 +292,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 
@@ -321,6 +329,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -358,6 +367,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 	}
@@ -390,6 +400,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -427,6 +438,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -463,6 +475,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -500,6 +513,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -536,6 +550,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -573,6 +588,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -609,6 +625,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -646,6 +663,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -682,6 +700,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -736,6 +755,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -771,6 +791,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -804,6 +825,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -839,6 +861,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -872,6 +895,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 	}
@@ -903,6 +927,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -936,6 +961,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -971,6 +997,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		
@@ -1004,6 +1031,7 @@
 		"paintborder"					"1"
 		
 		"defaultFgColor_override"		"TanLight"
+		"selectedFgColor_override"		"TanLight"
 		"armedFgColor_override"			"Positive"
 		"depressedFgColor_override"		"Positive"
 		
@@ -1039,6 +1067,7 @@
 		"paintborder"					"0"
 		
 		"defaultFgColor_override"		"shadow_hari"
+		"selectedFgColor_override"		"shadow_hari"
 		"armedFgColor_override"			"shadow_hari"
 		"depressedFgColor_override"		"shadow_hari"
 		

@@ -1,0 +1,206 @@
+"Resource/UI/HudPasstimeTeamScore.res"
+{
+	"HudTeamScore"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HudPasstimeTeamScore"
+		"xpos"				"0"
+		"ypos"				"25"
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+
+	"SakuraBlueBox"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SakuraBlueBox"
+		"xpos"			"c-72"
+		"ypos"			"r65"
+		"zpos"			"1"
+		"wide"			"72"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"border"		"TFFatLineBorderBlueBG"
+	}
+
+	"SakuraRedBox"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"SakuraRedBox"
+		"xpos"			"c0"
+		"ypos"			"r65"
+		"zpos"			"1"
+		"wide"			"72"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"border"		"TFFatLineBorderRedBG"
+	}
+
+	"LeftSideBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBG"
+		"xpos"			"9999"
+		"ypos"			"r120"
+		"zpos"			"1"
+		"wide"			"280"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_left"
+		"scaleImage"	"1"	
+	}
+		
+	"RightSideBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBG"
+		"xpos"			"9999"
+		"ypos"			"r120"
+		"zpos"			"1"
+		"wide"			"280"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_right"
+		"scaleImage"	"1"	
+	}
+		
+	"OutlineBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OutlineBG"
+		"xpos"			"9999"
+		"ypos"			"r120"
+		"zpos"			"2"
+		"wide"			"280"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_outline"
+		"scaleImage"	"1"	
+	}
+	
+	"BlueScore"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueScore"
+		"xpos"			"c-70"
+		"ypos"			"r69"
+		"zpos"			"8"
+		"wide"			"26"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%bluescore%"
+		"font"			"TF2Secondary28"
+		"fgcolor"		"TanLight"
+	}	
+		
+	"BlueScoreShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueScoreShadow"
+		"xpos"			"c-69"
+		"ypos"			"r68"
+		"zpos"			"7"
+		"wide"			"26"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%bluescore%"
+		"font"			"TF2Secondary28"
+		"fgcolor"		"Black"
+	}	
+							
+	"RedScore"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedScore"
+		"xpos"			"c44"
+		"ypos"			"r69"
+		"zpos"			"8"
+		"wide"			"26"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"TF2Secondary28"
+		"fgcolor"		"TanLight"		
+	}	
+		
+	"RedScoreShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedScoreShadow"
+		"xpos"			"c45"
+		"ypos"			"r68"
+		"zpos"			"7"
+		"wide"			"26"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"TF2Secondary28"
+		"fgcolor"		"Black"		
+	}
+
+	"PlayingToCluster"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"PlayingToCluster"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"PlayingTo"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayingTo"
+			"xpos"			"c-34"
+			"ypos"			"r46"
+			"zpos"			"4"
+			"wide"			"68"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#TF_PlayingTo"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"font"			"TF2Secondary10"
+			"fgcolor"		"TanLight"
+		}	
+				
+		"PlayingToBG"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"PlayingToBG"
+			"xpos"			"c-36"
+			"ypos"			"r47"
+			"zpos"			"3"
+			"wide"			"72"
+			"tall"			"17"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/objectives_flagpanel_bg_playingto"
+			"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+			"scaleImage"	"1"	
+		}
+	}
+}
