@@ -396,6 +396,8 @@ event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	Animate DisguiseEye				Alpha		"0"			Linear 0.0 0.0
+	Animate DisguiseEye				Alpha		"255"			Linear 0.05 1.0
 }
 
 event HudSpyDisguiseFadeOut

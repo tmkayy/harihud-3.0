@@ -45,6 +45,8 @@ Scheme
 		"shadow_hari"			"46 43 42 200"
 		"sakura_blue_hari"		"178 180 225 255"
 		"sakura_red_hari"		"214 180 214 255"
+		TFColors.ChatTextBlue		"114 208 252 255"
+		TFColors.ChatTextRed		"238 54 54 255"
 		"ahudWhite"				"242 242 242 255"
 		"orange_hari"				"255 165 0 255"
 		
@@ -1152,6 +1154,18 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"11" [$WINDOWS]
 				"tall"		"11" [$LINUX]
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"PartyChatFont"
+		{
+			"1"
+			{
+				"name"		"haribold"
+				"tall"		"11" [$WINDOWS]
+				"tall"		"12" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
