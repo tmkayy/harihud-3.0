@@ -113,11 +113,11 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"selectedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"armedBgColor_override"		"Positive"
+		"selectedBgColor_override"		"TanLight"
+		"armedFgColor_override"		"black_bright_hari"
+		"depressedBgColor_override"	"Positive"
+		"depressedFgColor_override"	"black_bright_hari"
 	}
 	
 	"CancelButtonHintIcon"
@@ -160,11 +160,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"selectedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"armedBgColor_override"		"Positive"
+		"selectedBgColor_override"		"TanLight"
+		"armedFgColor_override"		"black_bright_hari"
+		"depressedBgColor_override"	"Positive"
+		"depressedFgColor_override"	"black_bright_hari"
 	}
 	
 	"ConfirmButtonHintIcon"
